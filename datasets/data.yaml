@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['citizen', 'diplomatic', 'military', 'police', 'taxi']
+
+roboflow:
+  workspace: university-idm94
+  project: cars-plates-w4ywx
+  version: 15
+  license: Private
+  url: https://app.roboflow.com/university-idm94/cars-plates-w4ywx/15
