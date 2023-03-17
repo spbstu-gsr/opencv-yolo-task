@@ -1,4 +1,3 @@
-path: opencv-yolo-task/
 train: train/images
 val: valid/images
 test: test/images
